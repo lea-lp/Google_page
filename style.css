@@ -133,3 +133,8 @@ search:focus, input:focus {
 
 
 /*PARTIE FOOTER */
+
+footer {
+  padding-left: 27px;
+  background-color: grey;
+}

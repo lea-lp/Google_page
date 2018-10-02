@@ -17,13 +17,6 @@ nav {
   margin-top: 14px;
 }
 
-#apps img{
-  width: 18px;
-  height: 18px;
-  padding-right: 20px;
-  padding-top: 5px;
-}
-
 #gmail, #images{
   padding-right: 17px;
   margin-top: -7px;
@@ -39,9 +32,24 @@ a:hover{
   text-decoration: underline;
 }
 
-footer a{
-  color: #666;
+#apps{
+  width: 18px;
+  height: 18px;
+  padding-right: 40px;
+  padding-top: 5px;
+  margin-left: -13px;
+  margin-top: 3px;
+  background-image: url('images/apps.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px;
 }
+
+#apps:hover{
+    background-image: url('images/apps_b.png');
+    cursor: pointer;
+}
+
 
 #button{
   border: 2px solid #4285f4;
@@ -66,7 +74,7 @@ main {
 }
 
 #barbox {
-  margin-top: 30px;
+  margin-top: 25px;
   display: flex;
   flex-direction: row;
   width: 490px;
@@ -75,12 +83,19 @@ main {
   box-shadow: 0px 1.5px 3px #c4c4c4;
 }
 
+#barbox:hover {
+  box-shadow: 0px 1.5px 3.5px #898989;
+}
+
 #barbox img {
   width: 14px;
   height: 20px;
   padding-top: 12px;
-  padding-left: 50px
+  float: right;
+}
 
+#topnav {
+  width: 450px;
 }
 
 #search {
@@ -114,7 +129,7 @@ search:focus, input:focus {
 
 #GS, #FL {
   border: 1px solid #f2f2f2;
-  border-radius: 2px;
+  border-radius: 2.5px;
   color: #757575;
   font-size: 13px;
   font-weight: bold;
@@ -139,16 +154,14 @@ footer {
   bottom: 0;
   position: absolute;
   margin-left: -8px;
-  padding-left: 30px;
   background-color: #F2F2F2;
   width: 100%;
   line-height: 40px;
   font-size: small;
 }
 
-#France {
-  font-size: 15px;
-  color: #888;
+footer a{
+  color: #666;
 }
 
 #top_foot {
@@ -156,16 +169,21 @@ footer {
   text-align: left;
 }
 
+#France {
+  padding-left: 30px;
+  font-size: 15px;
+  color: #888;
+}
+
 #left a{
-  padding-right: 15px
+  padding-left: 30px;
 }
 
 #right {
   float: right;
-  padding-right: 50px;
-
+  padding-right: 20px;
 }
 
 #right a{
-  padding-right: 15px
+  padding-right: 20px
 }

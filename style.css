@@ -88,7 +88,7 @@ main {
   width: 350px;
   height: 25px;
   padding: 0px 16px 9px 9px;
-  margin: 5px 9px 0px 16px;
+  margin: 10px 9px 0px 7px;
   border: none;
   font-size: 15px;
 }
@@ -135,6 +135,37 @@ search:focus, input:focus {
 /*PARTIE FOOTER */
 
 footer {
-  padding-left: 27px;
-  background-color: grey;
+  border-top: 1px solid #e4e4e4;
+  bottom: 0;
+  position: absolute;
+  margin-left: -8px;
+  padding-left: 30px;
+  background-color: #F2F2F2;
+  width: 100%;
+  line-height: 40px;
+  font-size: small;
+}
+
+#France {
+  font-size: 15px;
+  color: #888;
+}
+
+#top_foot {
+  border-bottom: 1px solid #e4e4e4;
+  text-align: left;
+}
+
+#left a{
+  padding-right: 15px
+}
+
+#right {
+  float: right;
+  padding-right: 50px;
+
+}
+
+#right a{
+  padding-right: 15px
 }

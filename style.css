@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  font-size: 13px;
+}
+
+/* PARTIE NAV */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 15px auto;
+  margin-right: 30px;
+  margin-top: 17px;
+}
+
+#apps img{
+  width: 27px;
+  height: 27px;
+  padding-right: 20px;
+}
+
+#gmail, #images{
+  padding-right: 17px;
+  margin-top: -7px;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+footer a{
+  color: #666;
+}
+
+#button{
+  border: 2px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: #4285f4;
+  color: white;
+  padding: 7px 12px;
+  border-radius: 2px;
+}
+
+/*PARTIE MAIN */
+
+main {
+  display: table;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}

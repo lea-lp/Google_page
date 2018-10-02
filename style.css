@@ -54,8 +54,6 @@ footer a{
   font-size: 13px;
 }
 
-#button{
-
 /*PARTIE MAIN */
 
 main {
@@ -135,8 +133,3 @@ search:focus, input:focus {
 
 
 /*PARTIE FOOTER */
-
-footer {
-  padding-left: 27px;
-  
-}
